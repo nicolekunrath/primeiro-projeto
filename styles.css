@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+*{   margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #f6f6f6
+}
+
+.titulo-destaque {
+    color: #ffb3c6;
+}
+
+.apresentacao {
+    margin: 10%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+ width: 615px;
+}
+
+.apresentacao_conteudo_titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+    
+.apresentacao_conteudo_texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao_conteudo_texto_2 {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.apresentacao_links_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffb3c6;
+    width: 240px;
+    height: 50px;
+    border-radius: 10px 20px 10px;
+    font-size: 20px;
+    font-family: 'Krona One', sans-serif;
+    color:black;
+}
+
+.apresentacao_links_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffb3c6;
+    width: 240px;
+    height: 50px;
+    border-radius: 10px 20px 10px;
+    font-size: 20px;
+    font-family: 'Krona One', sans-serif;
+    color:black;
+}
+
+
+    button{ 
+        color: black;
+        background-color: #ffb3c6;
+        padding: 1em 2em;
+        border: none;
+        border-radius: 6rem;
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+    }
+    
+    button span:not(:nth-child(6)) {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 30px;
+        width: 30px;
+        background-color: #fb6f92;
+        border-radius: 50%;
+        transition: .6s ease;
+    }
+
+    button span:nth-child(6) {
+        position: relative;
+    }
+    button span:nth-child(1) {
+        transform: translate(-3.3em, -4em);
+    }
+    button span:nth-child(2) {
+        transform: translate(-6em, -1.3em);
+    }
+    button span:nth-child(3) {
+        transform: translate(-.2em, 1.8em);
+    }
+    button span:nth-child(4){
+        transform: translate(3.5em, 1.4em);
+    }
+    button span:nth-child(5){
+        transform: translate(3.5em, -3.8em);
+    }
+    button:hover span:not(:nth-child(6)){
+        transform: translate(-50%, -50%) scale(4);
+        transition: 1.5s ease;
+    }
