@@ -1,8 +1,8 @@
 
 # Portfólio 
-Olá, Bem vindo ao meu projeto de portfólio.
+Olá, Bem vindo ao meu projeto.
 
-![Screenshot_1](https://user-images.githubusercontent.com/125671925/220756774-32da605b-9d4a-4127-a74b-2e1eba324146.png)
+![Screenshot_8](https://github.com/nicolekunrath/portfolio/assets/125671925/480b6e9e-89c8-40c8-862d-296f6158ccbd)
 
 ## Ferramentas utilizadas:
 
@@ -10,7 +10,6 @@ Olá, Bem vindo ao meu projeto de portfólio.
 
 * CSS
 
-* Flex-box
 
 ## Feito por:
 
